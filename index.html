@@ -7,6 +7,69 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+      <style>
+    #about {
+      padding: 3em;
+      margin-bottom: 6em;
+    }
+    #experience {
+      margin-top: 7em;
+    }
+        #about {
+          padding: 2em;
+        }
+    
+        .section-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2em;
+          justify-content: space-between;
+        }
+    
+        .section__pic-container {
+          flex: 1 1 300px;
+        }
+    
+        .about-details-container {
+          flex: 2 1 500px;
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .about-containers {
+          display: flex;
+          gap: 1em;
+        }
+    
+        .details-container {
+          flex: 1;
+        }
+    
+        .text-container {
+          margin-top: 1em;
+        }
+    
+        .about-pic {
+          max-width: 100%;
+          height: auto;
+        }
+    
+        .icon {
+  width: 50px; /* Ajustez la taille pour ce qui convient le mieux */
+  height: auto; /* Conserve le ratio d'aspect */
+  object-fit: contain; /* Assure que l'image ne soit pas coupée */
+}   
+        @media (max-width: 768px) {
+          .section-container {
+            flex-direction: column;
+            align-items: center;
+          }
+    
+          .about-containers {
+            flex-direction: column;
+          }
+        }
+      </style>    
   </head>
   <body>
     <nav id="desktop-nav">
@@ -91,9 +154,9 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>3+ ans <br />-Enseignant de Mathématiques et sciences physiques à l'Université et en CPGE</p>
+              <p>-Enseignant de Mathématiques et sciences physiques à l'Université et en CPGE</p>
               <p>-Auteur d'ouvrages scientifiques</p>
-              <p>4+ ans <br />-Sportif de Haut-Niveau</p>
+              <p>-Sportif de Haut-Niveau</p>
             </div>
             <div class="details-container">
               <img
@@ -174,7 +237,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/GitHub-Logo.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -185,7 +248,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/Tensorflow_logo.svg.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -196,7 +259,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/simulink_support.jpg"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -207,18 +270,18 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/images.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>CATIA/PATRAN</h3>
+                  <h3>CATIA</h3>
                   <p>Intermédiaire</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/paTVKAvqnXVgTTAW.jpg"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -229,18 +292,18 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/logo-IMT.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Optimisation par essaim particulaire (application sur drones)</h3>
+                  <h3>Optimisation par essaim particulaire (appliqué aux drones)</h3>
                   <p>Expérimenté</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/logo-IMT.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -251,12 +314,12 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/logo-IMT.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Analyse numérique pour optimisation (appliqué à l'IA)</h3>
+                  <h3>Analyse numérique (appliqué à l'IA)</h3>
                   <p>Expérimenté</p>
                 </div>
               </article>
@@ -267,7 +330,7 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/Logo_UT3.jpg"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -278,7 +341,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/images222.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -289,44 +352,39 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/Image2223.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Acadomia (cours particuliers)</h3>
+                  <h3>Acadomia (+3 ans)</h3>
                   <p>Expérimenté</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/668d318e2f0000bc0d05db9d.jpg"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Anacours (cours particuliers)</h3>
+                  <h3>Anacours (+3 ans)</h3>
                   <p>Expérimenté</p>
                 </div>
               </article>
             </article>
             <article>
               <img
-                src="./assets/checkmark.png"
+                src="./assets/images345.png"
                 alt="Experience icon"
                 class="icon"
               />
               <div>
-                <h3>Complétude (cours particuliers)</h3>
+                <h3>Complétude (+3 ans)</h3>
                 <p>Expérimenté</p>
               </div>
             </article>   
-          </div>
-          <div style="display: flex; align-items: center;">
-            <img src="./assets/logo-IMT.png" alt="Logo IMT" width="150" />
-            <img src="./assets/Logo_UT3.jpg" alt="Logo Université de Montpellier" width="350" />
-            <img src="./assets/LogoUM.png" alt="Logo Université de Montpellier" width="300" />
-          </div>          
+          </div>        
         </div>
       </div>
       <img
